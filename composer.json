@@ -1,5 +1,5 @@
 {
-    "name": "zelenin/yii2-rss",
+    "name": "bobroid/yii2-rss",
     "description": "Yii2 RSS extension adds RSS-feed to your site",
     "type": "yii2-extension",
     "keywords": [
@@ -28,7 +28,7 @@
     },
     "require": {
         "yiisoft/yii2": "~2",
-        "zelenin/rss-generator": "*"
+        "bobroid/rss-generator": "*"
     },
     "repositories": [
         {
