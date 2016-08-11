@@ -1,5 +1,5 @@
 {
-    "name": "zelenin/yii2-rss",
+    "name": "bobroid/yii2-rss",
     "description": "Yii2 RSS extension adds RSS-feed to your site",
     "type": "yii2-extension",
     "keywords": [
@@ -15,6 +15,11 @@
             "email": "aleksandr@zelenin.me",
             "homepage": "http://zelenin.me",
             "role": "Developer"
+        },
+        {
+            "name": "Nikolai Gilko",
+            "email": "n.gilko@gmail.com",
+            "role": "added some features"
         }
     ],
     "support": {
