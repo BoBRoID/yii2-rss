@@ -23,8 +23,14 @@
     },
     "require": {
         "yiisoft/yii2": "~2",
-        "zelenin/rss-generator": "~2.1@stable"
+        "bobroid/rss-generator": "*"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/BoBRoID/rss-generator"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Zelenin\\yii\\extensions\\Rss\\": ""

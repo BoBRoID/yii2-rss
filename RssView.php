@@ -28,6 +28,11 @@ class RssView extends BaseListView
     /**
      * @var array
      */
+    public $standards;
+
+    /**
+     * @var array
+     */
     public $requiredChannelElements = ['title', 'link', 'description'];
 
     /**
@@ -67,7 +72,9 @@ class RssView extends BaseListView
                 throw new InvalidConfigException('Required item attribute "' . $itemElement . '" must be set');
             }
         }
-        $this->feed = new Feed;
+        $this->feed = new Feed([
+            'standards' =>  $this->standards
+        ]);
     }
 
     /**
