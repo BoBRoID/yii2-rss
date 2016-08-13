@@ -2,6 +2,7 @@
     "name": "bobroid/yii2-rss",
     "description": "Yii2 RSS extension adds RSS-feed to your site",
     "type": "yii2-extension",
+    "version": "0.2",
     "keywords": [
         "yii2",
         "rss",
